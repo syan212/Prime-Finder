@@ -37,10 +37,6 @@ function findPrimes() {
         return;
     }
 
-    if (n <= 0) {
-        return;
-    }
-
     let num = 0;
     let primesFound = "";
 

@@ -30,7 +30,7 @@ function findPrimes() {
     const start = parseInt(document.getElementById("startNumber").value);
     const end = parseInt(document.getElementById("endNumber").value);
     const outputDiv = document.getElementById("output");
-    outputDiv.innerHTML = ""; // Clear previous output
+    outputDiv.innerHTML = "Finding Primes..."; // Loading
 
     if (isNaN(start) || isNaN(end) || start >= end) {
         outputDiv.innerHTML = "<p>Invalid input: Start number must be less than the end number and both must be numbers.</p>";
